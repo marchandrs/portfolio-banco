@@ -1,15 +1,41 @@
 .top-section {
 	min-height: 800px;
-	background-color: blue;
+	background-color: #045dff;
 	color: white;
 }
 
+header {
+	min-height: 85px;
+	padding-top: 15px;
+}
+
+nav {
+	/*text-align: center;*/
+	display: flex;
+	align-items: center;
+}
+
+.site-logo {
+	font-size: 32px;
+	margin-top: 10px;
+}
+
 .destaque-section {
-	
+	margin-top: 60px;
+}
+
+.destaque-section h1 {
+	font-size: 56px;
+}
+
+.destaque-section p {
+	margin-top: 40px;
+	font-size: 24px;
+	font-weight: lighter;
 }
 
 .indicators-section {
-	min-height: 600px;
+	min-height: 230px;
 }
 
 .featured-section {
@@ -22,30 +48,83 @@
 }
 
 .mid-sec-top {
-	background-color: blue;
-	min-height: 80px;
-	padding-top: 50px;
+	background-color: #045dff;
+	/*min-height: 80px;
+	padding-top: 50px;*/
 }
 
 .big-card {
 	background-color: white;
-	border-left: 1px solid gray;
-	border-right: 1px solid gray;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
 }
 
-.card-top {	
-	min-height: 50px;
-	border-top: 1px solid gray;
+.card-top {
+	min-height: 80px;
+	border-top: 1px solid #fceadc;
 	border-radius: 15px 15px 0 0;
 }
 
 .card-bottom {
 	min-height: 30px;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #fceadc;
 	border-radius: 0 0 15px 15px;
 }
 
 .bottom-section {
 	min-height: 300px;
 	background-color: black;
+}
+
+.btn-header {
+	color: white;
+	border: 1px solid white;
+}
+
+.menu {
+	text-align: center;
+}
+
+.header-divider {
+	border-bottom: 2px solid #1767fe;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.btn-destaque-download {
+	margin-top: 45px;
+	min-height: 60px;
+	min-width: 200px;
+	border-radius: 30px;
+	background-color: #70fe84;
+	border-color: #70fe84;
+	color: #1c762c;
+	font-size: 16px;
+}
+
+.btn-destaque-download:hover,  .btn-destaque-download:focus{
+	background-color: #5ff077;
+	border-color: #5ff077;
+	color: #1c762c;
+}
+
+.btn-destaque-download:active {
+	background-color: #4ee169;
+	border-color: #4ee169;
+}
+
+@media only screen and (min-width: 768px) {
+	.menu {
+		margin-top: 15px;
+	}
+
+	.my-col-md-1dot5 {
+		flex: 0 0 14%;
+		max-width: 14%;
+	}
+
+	.my-offset-md-2dot5-percent {
+		margin-left: 2.5%;
+	}
 }
