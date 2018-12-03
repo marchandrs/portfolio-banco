@@ -39,7 +39,17 @@ nav {
 }
 
 .featured-section {
-	min-height: 600px;
+	min-height: 450px;
+}
+
+.featured-section-first {
+	min-height: 360px;
+}
+
+.featured-section-divider {
+	margin-left: 8%;
+	margin-right: 8%;
+	border-bottom: 1px solid #dfdfdf;
 }
 
 .middle-section {
@@ -72,6 +82,7 @@ nav {
 }
 
 .bottom-section {
+	margin-top: 110px;
 	min-height: 300px;
 	background-color: black;
 }
@@ -114,6 +125,12 @@ nav {
 	border-color: #4ee169;
 }
 
+.featured-section img{
+	margin-top: -25px;
+	max-height: 330px;
+	max-width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
 	.menu {
 		margin-top: 15px;
@@ -126,5 +143,13 @@ nav {
 
 	.my-offset-md-2dot5-percent {
 		margin-left: 2.5%;
+	}
+
+	.my-margin-left-md-90 {
+		margin-left: 90px;
+	}
+
+	.featured-section {
+		max-height: 360px;
 	}
 }
