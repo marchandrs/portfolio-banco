@@ -184,6 +184,9 @@ footer {
 	min-height: 200px;
 	background: rgb(48,40,152);
 	background: linear-gradient(90deg, rgba(48,40,152,1) 0%, rgba(35,32,121,1) 36%, rgba(26,28,103,1) 67%, rgba(32,28,108,1) 100%);
+	color: white;
+	padding-top: 50px;
+	padding-left: 50px;
 }
 
 
