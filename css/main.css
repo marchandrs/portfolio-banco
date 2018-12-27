@@ -146,49 +146,24 @@ footer {
 	margin-top: 10%;
 }
 
-.bot-sec-top-container {
-	background-color: white;
-	height: 70px;
-	padding: 0;
-	overflow: hidden;
-}
-
-.bot-sec-top {
-	width: 200%;
-	height: 100%;
-	background-color: #262281;
-	transform-origin: 58% 100%;
-    transform: rotate(-2.74deg);
-	background: rgb(48,40,152);
-	background: linear-gradient(90deg, rgba(48,40,152,1) 0%, rgba(26,28,103,1) 36%, rgba(32,28,108,1) 60%);
-}
-
-.bot-sec-left-container {
-	height: 200px;
-	background-color: white;
-	padding: 0;
-	padding-left: 100px;
-	overflow: hidden;
-}
-
-.bot-sec-left {
-	width: 100%;
-	height: 100%;
-	background-color: #302898;
-	transform-origin: 0 100%;
-    transform: rotate(8.5deg);
-}
-
-.bot-sec-right-container {
-	background-color: #101650;	
+footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
 	min-height: 200px;
+	background-color: #101650;	
 	background: rgb(48,40,152);
 	background: linear-gradient(90deg, rgba(48,40,152,1) 0%, rgba(35,32,121,1) 36%, rgba(26,28,103,1) 67%, rgba(32,28,108,1) 100%);
 	color: white;
-	padding-top: 50px;
-	padding-left: 50px;
 }
 
+.footer-title {
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.footer-item {
+	color: #7d78d4;
+}
 
 @media only screen and (min-width: 768px) {
 	.menu {
@@ -210,9 +185,5 @@ footer {
 
 	.featured-section {
 		max-height: 360px;
-	}
-	
-	.bot-sec-right-container {
-		border-radius: 80px 0 0 0;
 	}
 }
