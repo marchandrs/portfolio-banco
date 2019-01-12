@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden;
+}
+
 .top-section {
 	/*min-height: 800px;*/
 	min-height: 700px;
@@ -48,8 +52,8 @@
 }
 
 header {
-	min-height: 85px;
-	padding-top: 15px;
+	/*min-height: 85px;*/
+	padding-top: 10px;
 }
 
 nav {
@@ -258,6 +262,10 @@ footer {
 	opacity: 0.5;
 }
 
+.my-nav-bar {
+	padding: 0;
+}
+
 @media only screen and (min-width: 768px) {
 	.menu {
 		margin-top: 15px;
@@ -282,5 +290,37 @@ footer {
 
 	.top-section::after {
 		background-position: center;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.nav-item {
+		margin-right: 15px;
+	}
+
+	.nav-item:last-of-type {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.my-nav-link {
+		margin-right: 1.5vw;
+		margin-left: 1.5vw;
+	}
+
+	.my-nav-button {
+		min-width: 160px;
+		margin-left: 30px;
+		margin-right: 15px;
+	}
+
+	.navbar-nav .my-nav-button:last-child {
+		margin-left: 15px;
+		margin-right: 0;
+	}
+
+	.btn-header {
+		margin-top: 8px;
 	}
 }
